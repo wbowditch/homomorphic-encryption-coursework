@@ -8,5 +8,6 @@ sudo ./build-docker.sh
 
 To run the docker image:
 
-```sudo ./run-docker.sh
+```
+sudo ./run-docker.sh
 ```
