@@ -4,9 +4,9 @@ To build the docker image containing the simulated homomorphic exchange from Sec
 
 ```
 sudo ./build-docker.sh
-'''
+```
 
 To run the docker image:
-'''
-sudo ./run-docker.sh
-'''
+
+```sudo ./run-docker.sh
+```
