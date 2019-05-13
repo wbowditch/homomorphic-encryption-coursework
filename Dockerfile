@@ -1,8 +1,10 @@
 #
 # Container to build Linux SEAL libraries, python wrapper, and examples
 #
-FROM ubuntu:17.10
-
+FROM ubuntu:18.04
+MAINTAINER Todd Stavish <toddstavish@gmail.com>
+RUN echo hello
+RUN apt-get update
 # Install binary dependencies
 RUN apt-get -qqy update && apt-get install -qqy \
 	g++ \
